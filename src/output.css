@@ -608,6 +608,10 @@ video {
   width: 8rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-end {
   align-items: flex-end;
 }
@@ -758,4 +762,58 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.after\:relative::after {
+  content: var(--tw-content);
+  position: relative;
+}
+
+.after\:left-3::after {
+  content: var(--tw-content);
+  left: 0.75rem;
+}
+
+.after\:left-10::after {
+  content: var(--tw-content);
+  left: 2.5rem;
+}
+
+.after\:left-2::after {
+  content: var(--tw-content);
+  left: 0.5rem;
+}
+
+.after\:contents::after {
+  content: var(--tw-content);
+  display: contents;
+}
+
+.after\:content-arrow::after {
+  --tw-content: url('./assets/icon-arrow-light.svg');
+  content: var(--tw-content);
+}
+
+.hover\:border-t-slate-300:hover {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.hover\:bg-slate-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:after\:content-arrow:hover::after {
+  --tw-content: url('./assets/icon-arrow-light.svg');
+  content: var(--tw-content);
 }

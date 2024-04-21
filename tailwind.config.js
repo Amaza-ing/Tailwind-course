@@ -19,6 +19,9 @@ module.exports = {
       height: {
         header: "400px",
       },
+      content: {
+        arrow: "url('./assets/icon-arrow-light.svg')"
+      }
     },
   },
   plugins: [],
