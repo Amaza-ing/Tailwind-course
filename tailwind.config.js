@@ -6,8 +6,12 @@ module.exports = {
       roboto: ["Roboto"],
     },
     extend: {
+      screens: {
+        tv: "1400px",
+      },
       colors: {
         dark: "#2f3044",
+        footer: "#24242c",
       },
       backgroundImage: {
         circles: "url('./assets/bg-pattern-circles.svg')",

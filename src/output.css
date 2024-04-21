@@ -562,40 +562,12 @@ video {
   position: relative;
 }
 
-.-top-1\/4 {
-  top: -25%;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.-top-0 {
-  top: -0px;
-}
-
 .-top-1\/2 {
   top: -50%;
 }
 
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.-top-1 {
-  top: -0.25rem;
 }
 
 .mx-12 {
@@ -608,54 +580,50 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
-.mb-xxl {
-  margin-bottom: 500px;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-80 {
   margin-bottom: 20rem;
 }
 
-.mt-80 {
-  margin-top: 20rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
+.mb-xxl {
+  margin-bottom: 500px;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
 }
 
 .flex {
@@ -672,10 +640,6 @@ video {
 
 .h-header-phone {
   height: 700px;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-14 {
@@ -743,6 +707,11 @@ video {
   background-color: rgb(47 48 68 / var(--tw-bg-opacity));
 }
 
+.bg-footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 36 44 / var(--tw-bg-opacity));
+}
+
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
@@ -753,12 +722,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
 .bg-\[url\(\'\.\/assets\/illustration-editor-desktop\.svg\'\)\] {
   background-image: url('./assets/illustration-editor-desktop.svg');
+}
+
+.bg-\[url\(\'\.\/assets\/illustration-laptop-desktop\.svg\'\)\] {
+  background-image: url('./assets/illustration-laptop-desktop.svg');
 }
 
 .bg-circles {
@@ -773,40 +742,24 @@ video {
   background-size: contain;
 }
 
-.bg-\[0_\] {
-  background-size: 0;
-}
-
-.bg-\[0_75\%\] {
-  background-position: 0 75%;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-\[0_50px\] {
-  background-position: 0 50px;
-}
-
-.bg-\[0_100px\] {
-  background-position: 0 100px;
-}
-
 .bg-\[0_80px\] {
   background-position: 0 80px;
-}
-
-.bg-top {
-  background-position: top;
 }
 
 .bg-bottom {
   background-position: bottom;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-14 {
+  padding: 3.5rem;
 }
 
 .p-20 {
@@ -826,6 +779,10 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
 }
 
 .text-center {
@@ -849,11 +806,6 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -921,6 +873,10 @@ video {
     margin-top: 2.5rem;
   }
 
+  .sm\:mt-52 {
+    margin-top: 13rem;
+  }
+
   .sm\:mt-auto {
     margin-top: auto;
   }
@@ -941,12 +897,32 @@ video {
     width: 50%;
   }
 
-  .sm\:bg-\[125\%\] {
-    background-position: 125%;
+  .sm\:items-baseline {
+    align-items: baseline;
+  }
+
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
+  .sm\:bg-none {
+    background-image: none;
+  }
+
+  .sm\:bg-\[-125px_120px\] {
+    background-position: -125px 120px;
   }
 
   .sm\:bg-\[0_75\%\] {
     background-position: 0 75%;
+  }
+
+  .sm\:bg-\[125\%\] {
+    background-position: 125%;
   }
 
   .sm\:p-20 {
@@ -963,6 +939,10 @@ video {
     padding-bottom: 2.5rem;
   }
 
+  .sm\:pt-0 {
+    padding-top: 0px;
+  }
+
   .sm\:text-start {
     text-align: start;
   }
@@ -970,5 +950,11 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .tv\:bg-\[url\(\'\.\/assets\/illustration-laptop-desktop\.svg\'\)\] {
+    background-image: url('./assets/illustration-laptop-desktop.svg');
   }
 }
