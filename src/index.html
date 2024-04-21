@@ -14,12 +14,14 @@
   </head>
   <body>
     <header
-      class="bg-red-400 text-white h-header rounded-bl-xxl bg-intro bg-center"
+      class="bg-red-400 text-white h-header-phone rounded-bl-xxl bg-intro bg-center sm:h-header"
     >
-      <nav class="flex justify-between px-24 py-10">
+      <nav
+        class="flex justify-between items-center px-12 py-14 sm:px-24 sm:py-10"
+      >
         <div class="flex items-end gap-14">
           <p class="text-4xl font-roboto font-bold]">Blogr</p>
-          <ul class="flex gap-8">
+          <ul class="hidden sm:flex gap-8">
             <li
               class="hover:underline cursor-pointer after:content-arrow after:relative after:left-2"
             >
@@ -37,7 +39,7 @@
             </li>
           </ul>
         </div>
-        <div class="flex gap-8">
+        <div class="hidden sm:flex gap-8">
           <button>Login</button>
           <button
             class="bg-white text-red-400 w-32 py-2 rounded-full font-bold hover:bg-slate-300"
@@ -45,16 +47,21 @@
             Sign Up
           </button>
         </div>
+        <img
+          src="./assets/icon-hamburger.svg"
+          alt="menu"
+          class="w-14 h-6 sm:hidden"
+        />
       </nav>
 
-      <h1 class="text-center text-5xl mt-10 font-roboto">
+      <h1 class="text-center text-5xl mt-32 font-roboto px-12 sm:mt-10">
         A modern publishing platform
       </h1>
-      <h2 class="text-center mt-5">
+      <h2 class="text-center mt-5 px-12">
         Grow your audience and build your online brand
       </h2>
 
-      <div class="flex justify-center gap-5 my-10">
+      <div class="flex justify-center gap-5 my-10 px-12">
         <button
           class="bg-white text-red-400 w-32 py-2 rounded-full hover:bg-slate-300"
         >
@@ -67,14 +74,14 @@
     </header>
 
     <section
-      class="my-8 p-20 bg-[url('./assets/illustration-editor-desktop.svg')] bg-no-repeat bg-contain bg-[125%]"
+      class="mt-40 mb-80 mx-12 bg-[url('./assets/illustration-editor-desktop.svg')] bg-no-repeat bg-contain bg-[0_80px] sm:my-8 sm:mx-auto sm:p-20 sm:bg-[125%]"
     >
-      <h2 class="text-center text-3xl font-bold mb-28">
+      <h2 class="text-center text-3xl font-bold mb-xxl sm:mb-28">
         Designed for the future
       </h2>
-      <div class="w-1/2">
+      <div class="text-center sm:text-start sm:w-1/2">
         <article>
-          <h3 class="text-xl font-bold my-8">
+          <h3 class="text-3xl font-bold my-8 sm:text-xl">
             Introducing an extensible editor
           </h3>
           <p>
@@ -87,7 +94,9 @@
           </p>
         </article>
         <article>
-          <h3 class="text-xl font-bold my-8">Robust content management</h3>
+          <h3 class="text-3xl font-bold my-8 sm:text-xl">
+            Robust content management
+          </h3>
           <p>
             Flexible content management enables users to easily move through
             posts. Increase the usability of your blog by adding customized
@@ -99,16 +108,16 @@
     </section>
 
     <section
-      class="my-8 p-20 bg-circles bg-no-repeat bg-[0_75%] bg-dark text-white flex justify-end relative rounded-tr-xxl rounded-bl-xxl"
+      class="my-8 p-20 bg-circles bg-no-repeat bg-bottom bg-dark text-white flex justify-end relative rounded-tr-xxl rounded-bl-xxl sm:bg-[0_75%]"
     >
       <img
         src="./assets/illustration-phones.svg"
         alt="phones"
-        class="absolute -top-1/4 left-10"
+        class="absolute -top-1/2 left-0 sm:-top-1/4 sm:left-10"
       />
-      <article class="w-1/2">
-        <h3 class="text-xl font-bold my-8">State of the Art Infrastucture</h3>
-        <p>
+      <article class="text-center sm:w-1/2">
+        <h3 class="text-4xl font-bold mt-60 sm:text-xl sm:my-8">State of the Art Infrastucture</h3>
+        <p class="mt-10 sm:mt-auto">
           With reliability and speed in mind, worldwide data centers provide the
           backbone for ultra-fast connectivity. This ensures your site will load
           instantly, no matter where your readers are, keeping your site

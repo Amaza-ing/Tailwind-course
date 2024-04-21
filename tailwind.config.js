@@ -18,10 +18,14 @@ module.exports = {
       },
       height: {
         header: "400px",
+        "header-phone": "700px",
       },
       content: {
-        arrow: "url('./assets/icon-arrow-light.svg')"
-      }
+        arrow: "url('./assets/icon-arrow-light.svg')",
+      },
+      margin: {
+        xxl: "500px",
+      },
     },
   },
   plugins: [],

@@ -570,6 +570,39 @@ video {
   left: 2.5rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.-top-1\/2 {
+  top: -50%;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.-top-1 {
+  top: -0.25rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -580,28 +613,73 @@ video {
   margin-bottom: 2rem;
 }
 
-.mb-28 {
-  margin-bottom: 7rem;
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mb-xxl {
+  margin-bottom: 500px;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mb-60 {
+  margin-bottom: 15rem;
+}
+
+.mb-80 {
+  margin-bottom: 20rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
 
-.h-header {
-  height: 400px;
+.hidden {
+  display: none;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-header-phone {
+  height: 700px;
 }
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-32 {
@@ -614,6 +692,10 @@ video {
 
 .items-end {
   align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-end {
@@ -671,6 +753,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-\[url\(\'\.\/assets\/illustration-editor-desktop\.svg\'\)\] {
   background-image: url('./assets/illustration-editor-desktop.svg');
 }
@@ -687,16 +773,36 @@ video {
   background-size: contain;
 }
 
+.bg-\[0_\] {
+  background-size: 0;
+}
+
 .bg-\[0_75\%\] {
   background-position: 0 75%;
 }
 
-.bg-\[125\%\] {
-  background-position: 125%;
-}
-
 .bg-center {
   background-position: center;
+}
+
+.bg-\[0_50px\] {
+  background-position: 0 50px;
+}
+
+.bg-\[0_100px\] {
+  background-position: 0 100px;
+}
+
+.bg-\[0_80px\] {
+  background-position: 0 80px;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -707,14 +813,14 @@ video {
   padding: 5rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-2 {
@@ -769,39 +875,14 @@ video {
   position: relative;
 }
 
-.after\:left-3::after {
-  content: var(--tw-content);
-  left: 0.75rem;
-}
-
-.after\:left-10::after {
-  content: var(--tw-content);
-  left: 2.5rem;
-}
-
 .after\:left-2::after {
   content: var(--tw-content);
   left: 0.5rem;
 }
 
-.after\:contents::after {
-  content: var(--tw-content);
-  display: contents;
-}
-
 .after\:content-arrow::after {
   --tw-content: url('./assets/icon-arrow-light.svg');
   content: var(--tw-content);
-}
-
-.hover\:border-t-slate-300:hover {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
-
-.hover\:bg-slate-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-300:hover {
@@ -813,7 +894,81 @@ video {
   text-decoration-line: underline;
 }
 
-.hover\:after\:content-arrow:hover::after {
-  --tw-content: url('./assets/icon-arrow-light.svg');
-  content: var(--tw-content);
+@media (min-width: 640px) {
+  .sm\:-top-1\/4 {
+    top: -25%;
+  }
+
+  .sm\:left-10 {
+    left: 2.5rem;
+  }
+
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sm\:mb-28 {
+    margin-bottom: 7rem;
+  }
+
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .sm\:mt-auto {
+    margin-top: auto;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:h-header {
+    height: 400px;
+  }
+
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
+  .sm\:bg-\[125\%\] {
+    background-position: 125%;
+  }
+
+  .sm\:bg-\[0_75\%\] {
+    background-position: 0 75%;
+  }
+
+  .sm\:p-20 {
+    padding: 5rem;
+  }
+
+  .sm\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:text-start {
+    text-align: start;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
