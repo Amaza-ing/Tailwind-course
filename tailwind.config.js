@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      roboto: ["Roboto"],
+    },
     extend: {
       colors: {
         dark: "#2f3044",
@@ -9,6 +12,12 @@ module.exports = {
       backgroundImage: {
         circles: "url('./assets/bg-pattern-circles.svg')",
         intro: "url('./assets/bg-pattern-intro-desktop.svg')",
+      },
+      borderRadius: {
+        xxl: "80px",
+      },
+      height: {
+        header: "400px",
       },
     },
   },

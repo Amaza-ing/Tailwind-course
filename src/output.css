@@ -596,7 +596,7 @@ video {
   display: flex;
 }
 
-.h-\[400px\] {
+.h-header {
   height: 400px;
 }
 
@@ -640,11 +640,11 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-bl-\[80px\] {
+.rounded-bl-xxl {
   border-bottom-left-radius: 80px;
 }
 
-.rounded-tr-\[80px\] {
+.rounded-tr-xxl {
   border-top-right-radius: 80px;
 }
 
@@ -720,6 +720,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-roboto {
+  font-family: Roboto;
 }
 
 .text-3xl {
