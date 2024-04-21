@@ -554,6 +554,22 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-top-1\/4 {
+  top: -25%;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -596,6 +612,10 @@ video {
   align-items: flex-end;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -624,8 +644,17 @@ video {
   border-bottom-left-radius: 80px;
 }
 
+.rounded-tr-\[80px\] {
+  border-top-right-radius: 80px;
+}
+
 .border {
   border-width: 1px;
+}
+
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 48 68 / var(--tw-bg-opacity));
 }
 
 .bg-red-400 {
@@ -642,12 +671,28 @@ video {
   background-image: url('./assets/illustration-editor-desktop.svg');
 }
 
+.bg-circles {
+  background-image: url('./assets/bg-pattern-circles.svg');
+}
+
+.bg-intro {
+  background-image: url('./assets/bg-pattern-intro-desktop.svg');
+}
+
 .bg-contain {
   background-size: contain;
 }
 
+.bg-\[0_75\%\] {
+  background-position: 0 75%;
+}
+
 .bg-\[125\%\] {
   background-position: 125%;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
